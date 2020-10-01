@@ -28,3 +28,6 @@ function onScroll() {
         navbar.classList.remove("sticky");
     }
 }
+
+var date = new Date();
+document.getElementById("year").innerHTML = date.getFullYear();
